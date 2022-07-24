@@ -1,1 +1,6 @@
-<div class="square"></div>
+<h2>Event</h2>
+<div class="container">
+  <div (click)="fireClick()" [ngClass]="{square: true, active: squareActive}">
+  </div>
+  <span class="paf" *ngIf="squareActive">paf!</span>
+</div>

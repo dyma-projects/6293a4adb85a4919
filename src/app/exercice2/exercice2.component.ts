@@ -12,4 +12,10 @@ export class Exercice2Component implements OnInit {
   ngOnInit() {
   }
 
+  public squareActive: boolean = false
+  public fireClick() {
+    this.squareActive = !this.squareActive
+    console.log('Click')
+   }
+
 }

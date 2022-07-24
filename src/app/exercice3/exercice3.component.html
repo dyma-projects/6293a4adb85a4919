@@ -1,0 +1,6 @@
+<h2>Attribute switch</h2>
+<div class="container">
+  <p *ngIf="status">{{ p1 }}</p>
+  <button (click)="switchText()">Switch text</button>
+  <p *ngIf="!status">{{ p2 }}</p>
+</div>

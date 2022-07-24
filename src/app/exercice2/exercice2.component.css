@@ -1,5 +1,22 @@
+.container {
+  display: flex;
+}
+
+.paf {
+  position: absolute;
+  font-size: 24px;
+  left: 200px;
+}
+
 .square {
   border: 1px solid red;
   height: 100px;
   width: 100px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.active {
+  transform: rotate(360deg) translateX(200px) scale(15%);
+  background-color: red;
 }
